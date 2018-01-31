@@ -10,9 +10,9 @@ def question(i):
                 "По пятибалльной шкале, какое значение придается хорошим отношениям с родственниками (в сумме)",
                 "По пятибалльной шкале, какое значение придается детям (в сумме)"]
   for ask in questions:
-    ask = (questions[i])
+    ask = questions[i]
     i += 1
-    return (ask)
+    return ask
 
 def main():
   Y, P, Hm, Mf, J, G, Sm, Sf, I, C = [int(input(question(i))) for i in range (10)]
