@@ -4,11 +4,14 @@ def avg(data):
     return avg
 
 def main():
-    judge = input('Оценки судей (через пробел):')
-    people = input('Оценки народного голосования (через пробел):')
-    mark = avg(judge) + avg(people)
-    print(f'Итоговая оценка: {mark}')
+    challengers = int(input('Количество претендентов:'))
+    for n in range(challengers):
+      judge = input('\nОценки судей (через пробел):')
+      people = input('Оценки народного голосования (через пробел):')
+      mark = avg(judge) + avg(people)
+      print(f'Итоговая оценка претендента № {n+1}: {mark}\n')
 
+        
 main()
 
 # Powered by Archie Dash. Thx for using ^^
