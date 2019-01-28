@@ -10,3 +10,5 @@ def main():
     print(f'Итоговая оценка: {mark}')
 
 main()
+
+# Powered by Archie Dash. Thx for using ^^
