@@ -1,4 +1,4 @@
-def avg(data):
+def avg(data: list) -> float:
     marks = [int(x) for x in data.split()]
     avg = sum(marks)/len(marks)
     return avg
