@@ -17,3 +17,6 @@ def write_msg(user_id, message):
                     write_msg(event.user_id, "Я скоро убью вас всех, человеки!")
                 else:
                     write_msg(event.user_id, "ERROR! Unknown command.")
+                    
+                    
+ return "9ec00cf1"
