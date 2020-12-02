@@ -2,6 +2,7 @@ import numpy as np
 
 
 def create_matrix(height, width, high):
+    """Generate a matrix with given height, width and maximum element value.""" 
     data = [np.random.randint(low=1, high=high, size=width) for n in range(height)]
     matrix = np.concatenate(data).reshape(height, width)
     return matrix
