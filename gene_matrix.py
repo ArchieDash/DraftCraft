@@ -12,8 +12,8 @@ def gene_matrix():
 
 if __name__ == "__main__":
     df = pd.DataFrame(gene_matrix(), columns=["Specimen1",
-                                               "Specimen2",
-                                               "Specimen3",
-                                               "Specimen4"])
+                                              "Specimen2",
+                                              "Specimen3",
+                                              "Specimen4"])
     df.index +=1
     print(df)
