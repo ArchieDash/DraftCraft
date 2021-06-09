@@ -14,7 +14,7 @@ if __name__ == "__main__":
     high = input("Set the limit for each element (10 by default): ")
     try:
         high = int(high)
-    except:
+    except ValueError:
         high = 10
     print(create_matrix(height, width, high))
     
